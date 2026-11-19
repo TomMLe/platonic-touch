@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data, weights, caches (never commit these)
+data/*
+!data/.gitkeep
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Experiment tracking
+mlruns/
+mlartifacts/
+outputs/
+multirun/
+wandb/
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+
+# Claude Code local settings
+.claude/settings.local.json
